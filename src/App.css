@@ -1,0 +1,82 @@
+
+.mainly {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: rgb(211, 207, 207);
+  padding: 20px;
+}
+
+.main{
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.input{
+  width:100%;
+  height:20px;
+  border:1px solid black;
+  border-radius:5px;
+  padding-left:4px;
+  margin-bottom:5px;
+}
+
+.search{
+  height: 40px;
+  width:100px;
+  border-radius: 6px;
+  background-color: rgb(30, 255, 30);
+  transition: background-color 0.5s ease;
+  margin-bottom:20px;
+}
+
+.search:hover{
+  background-color: green;
+}
+
+
+.inside{
+  border: 1px solid grey;
+  margin-bottom:25px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.inside:hover{
+  transform: scale(1.04);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media (min-width:200px)and (max-width: 768px) {
+  .main {
+      padding: 20px;
+  }
+
+  .movie {
+      font-size: 36px;
+  }
+
+  .input, .search {
+      font-size: 16px;
+  }
+
+  .title {
+      font-size: 20px;
+      
+  }
+}
